@@ -5,8 +5,6 @@ def linearSearch(UI, lst):
         else:
             return 0
 
-
-
 def binarySearch(UI,lst):
     UB = len(lst)
     LB = 1
@@ -29,11 +27,8 @@ def binarySearch(UI,lst):
     except IndexError:
             return 0
 
-
 # Main
 lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-
 
 Selection = int(input('''Please Select from the following:
     1 - Linear Search
@@ -41,10 +36,7 @@ Selection = int(input('''Please Select from the following:
     0 - Exit
 Selection:'''))
 
-
-
 CD = False
-
 
 while Selection != 0 :
 
@@ -73,9 +65,3 @@ while Selection != 0 :
         1 - Linear Search
         2 - Binary Search
 Selection:'''))
-
-
-
-
-
-
