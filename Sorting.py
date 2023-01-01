@@ -24,7 +24,10 @@ def bubbleSort():
                 nLst[j + 1] = temp
                 noSwaps = False
         bouandary = bouandary - 1
-    print(nLst)
+    if nLst == []:
+        print('PLEASE CREATE A LIST')
+    else:
+        print(nLst)
 
 
 def insersionSort():
@@ -36,7 +39,11 @@ def insersionSort():
             nLst[cpt] = nLst[cpt - 1]
             cpt -= 1
         nLst[cpt] = temp
-    print(nLst)
+    if nLst == []:
+        print('PLEASE CREATE A LIST')
+    else:
+        print(nLst)
+    #print(nLst)
 
 
 # Main
