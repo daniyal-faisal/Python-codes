@@ -43,7 +43,6 @@ def insersionSort():
         print('PLEASE CREATE A LIST')
     else:
         print(nLst)
-    #print(nLst)
 
 
 # Main
