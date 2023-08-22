@@ -18,6 +18,6 @@ r = int(input("Enter a value for r:"))
 if(r > n or r < 0 or n <= 0):
     print("ERROR")
 else:
-    print("nPr is",factorial(n)/(factorial(n-r)));
+    print("nPr is",factorial(n)/(factorial(n-r)))
 
 
