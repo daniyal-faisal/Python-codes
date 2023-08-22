@@ -11,7 +11,7 @@ def factorial(num):
 
 
 n = 0
-r= 0
+r = 0
 n = int(input("Enter a value for n:"))
 r = int(input("Enter a value for r:"))
 
